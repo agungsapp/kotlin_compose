@@ -100,7 +100,8 @@ class MainActivity : ComponentActivity() {
                     composable("ProjectScreen") {
                         ProjectScreen(
                             navController = navController,
-                            projects = projects // Meneruskan daftar proyek ke ProjectScreen
+                            authApi = authApi,
+                            context = context
                         )
                     }
                     composable("Buat_Project") {

@@ -883,7 +883,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
         public Provider<String> getActivityCompose() { return getVersion("activityCompose"); }
 
         /**
-         * Version alias <b>activityComposeVersion</b> with value <b>1.7.2</b>
+         * Version alias <b>activityComposeVersion</b> with value <b>1.9.3</b>
          * <p>
          * If the version is a rich version and cannot be represented as a
          * single version string, an empty string is returned.
